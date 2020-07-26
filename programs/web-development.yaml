@@ -1,14 +1,15 @@
 title: Web Development Program
+slug: program
 description: >
   A three-month immersive curriculum preparing students for entry-level work as
   full-stack web developers.
 modules:
-  - prework:
+  - slug: prework
     title: Program Pre-work
     lessons:
       - prework
       - misc-keys-to-student-success
-  - c-sharp:
+  - slug: c-sharp
     title: Introduction to Programming with C#
     lessons:
       - cs-environment-setup
@@ -43,7 +44,7 @@ modules:
       - cs-api-servers
       # - misc-optimizing-developer-workspace
       # - cs-other-enumerables (List, Queue, Dictionary, HashSet, Stack, )
-  - front-end-fundamentals:
+  - slug: front-end
     title: Fundamentals of Front-end Web Development
     lessons:
       # - environment-setup
@@ -62,20 +63,19 @@ modules:
       # react-events
       - js-fetch
       - react-hooks
-  - full-stack-development:
+  - slug: full-stack
     title: Full-stack Application Development
     lessons:
       - full-stack-build-an-app
-  - quick-reference:
+  - slug: quick-reference
     title: Quick Reference Guides
     lessons:
       - misc-quick-reference
-  - career-support:
+  - slug: career-support
     title: Career Support
     lessons:
       - soft-skills
       - career-prep
       - career-looking
       - career-coding
-
 position: 0
