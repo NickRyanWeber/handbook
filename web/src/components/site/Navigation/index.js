@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link }  from 'gatsby'
+import { Link } from 'gatsby'
 import cx from 'classnames'
 import SDGIcon from '../../../images/button.svg'
 import { Transition } from '../Transition'
@@ -17,7 +17,7 @@ function Header() {
   )
 }
 
-export function Navigation() {
+export function Navigation({ program, module }) {
   const {
     closeSidebar,
     hideSidebar,
@@ -83,7 +83,7 @@ export function Navigation() {
       <div className="hidden md:flex md:flex-shrink-0">
         <div className="flex flex-col w-96">
           <Header />
-          <Menu />
+          <Menu program={program} module={module} />
         </div>
       </div>
     </>
